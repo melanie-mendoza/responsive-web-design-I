@@ -162,7 +162,15 @@ footer {
 }
 
 @media (max-width: 800px){
-    .logo {
+    header {
+        width: 100%
+    }
+    nav {
+        width: 60%;
+        display: flex;
+        display-direction: row-reverse;
+    }
+    .hero {
         display: none
     }
     h1 {
