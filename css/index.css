@@ -66,33 +66,34 @@ body {
     margin: 0;
     max-width: 100%;
 }
-
-nav {
+header {
     display: flex;
+    flex-direction: row;
     justify-content: center;
     padding-top: 3%;
+}  
+nav {
+    display: flex;
 }
-
 nav a {
-    padding: 1% 3%;
+    padding: 5%;
+} 
+.logo {
+    padding-left: 13%;
 }
-
 h1 {
     font-size: 70px;
 }
-
 .hero-section {
     display: flex;
     justify-content: center;
     padding: 4% 2% 3% 5%;
 }
-
 .title {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-
 .hero {
     margin-left: 5%;
 }
@@ -157,12 +158,16 @@ footer {
     header {
         width: 100%;
         display: flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
         align-items: center;
     }
     nav {
         width: 60%;
         display: flex;
+        justify-content: center;
+    }
+    .logo {
+       padding-bottom: 7%; 
     }
     .hero {
         display: none
@@ -177,7 +182,7 @@ footer {
     header {
         width: 100%;
         display: flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
     nav {
         width: 60%;
